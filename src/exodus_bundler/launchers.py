@@ -4,7 +4,7 @@ the proper linker and library paths."""
 import os
 import re
 import tempfile
-from distutils.spawn import find_executable as find_executable_original
+from shutil import which as find_executable_original
 from subprocess import PIPE
 from subprocess import Popen
 
